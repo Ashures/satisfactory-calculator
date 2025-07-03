@@ -5,7 +5,7 @@ const Item: React.FC<ItemInfo> = (props) => {
   return (
     <div className="item" id={id}>
       <h2>{displayName}</h2>
-      <img src={`images/items/${iconUrl}`} alt="" />
+      <img src={`/images/items/${iconUrl}`} alt="" />
     </div>
   );
 };
