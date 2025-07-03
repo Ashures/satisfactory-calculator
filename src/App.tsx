@@ -1,10 +1,14 @@
+import ItemManager from "./components/items/ItemManager";
 import Navbar from "./components/main/Navbar";
 
 const App: React.FC = () => {
   return (
-    <main>
+    <>
       <Navbar />
-    </main>
+      <main>
+        <ItemManager />
+      </main>
+    </>
   );
 };
 
