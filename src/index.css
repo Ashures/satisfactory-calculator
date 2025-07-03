@@ -40,7 +40,7 @@ nav {
 .logo {
   width: 256px;
   height: 50px;
-  background-image: url("images/app/logo-sm.webp");
+  background: url("images/app/logo-sm.webp");
 }
 
 .item-manager {
