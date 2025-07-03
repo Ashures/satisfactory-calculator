@@ -1,0 +1,29 @@
+:root {
+  --bg: #080A16;
+  --bg-tint: #101223;
+  --fg: #5f668c;
+  --text: #fafafa;
+  --links: #ffbe8c;
+  --cta: #fa9549;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: none;
+  border: 0 solid;
+  border-radius: 0;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  width: 256px;
+  height: 50px;
+  background-image: url("images/app/logo-sm.webp");
+}
