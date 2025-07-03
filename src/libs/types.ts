@@ -8,8 +8,9 @@ export interface ItemRecipes {
   alternate?: Recipe[];
 }
 
-export interface Item {
-  display_name: string;
-  icon_url: string;
+export interface ItemInfo {
+  id: string;
+  displayName: string;
+  iconUrl: string;
   recipe: ItemRecipes;
 }
