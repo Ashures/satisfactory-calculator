@@ -1,0 +1,24 @@
+{
+  "default": {
+    "quantity": 2,
+    "ingredients": {
+      "crude-oil": 3
+    }
+  },
+  "alternate" : [
+    {
+      "quantity": 2,
+      "ingredients": {
+        "polymer-resin": 6,
+        "water": 2
+      }
+    },
+    {
+      "quantity": 12,
+      "ingredients": {
+        "rubber": 6,
+        "fuel": 6
+      }
+    }
+  ]
+}

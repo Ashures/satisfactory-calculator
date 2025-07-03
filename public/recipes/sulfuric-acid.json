@@ -1,0 +1,9 @@
+{
+  "default": {
+    "quantity": 5,
+    "ingredients": {
+      "sulfur": 5,
+      "water": 5
+    }
+  }
+}

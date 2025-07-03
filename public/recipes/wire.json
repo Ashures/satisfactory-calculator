@@ -1,0 +1,29 @@
+{
+  "default": {
+    "quantity": 2,
+    "ingredients": {
+      "copper-ingot": 1
+    }
+  },
+  "alternate" : [
+    {
+      "quantity": 8,
+      "ingredients": {
+        "caterium-ingot": 1
+      }
+    },
+    {
+      "quantity": 30,
+      "ingredients": {
+        "copper-ingot": 4,
+        "caterium-ingot": 1
+      }
+    },
+    {
+      "quantity": 9,
+      "ingredients": {
+        "iron-ingot": 5
+      }
+    }
+  ]
+}

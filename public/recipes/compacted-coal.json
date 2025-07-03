@@ -1,0 +1,34 @@
+{
+  "default": {
+    "quantity": 2,
+    "ingredients": {
+      "rocket-fuel": 16,
+      "power-shard": 1
+    }
+  },
+  "alternate" : [
+    {
+      "quantity": 1,
+      "ingredients": {
+        "turbo-fuel": 6,
+        "nitric-acid": 1
+      }
+    },
+    {
+      "quantity": 5,
+      "ingredients": {
+        "coal": 5,
+        "sulfur": 5
+      }
+    },
+    {
+      "quantity": 1,
+      "ingredients": {
+        "fuel": 4,
+        "nitrogen-gas": 3,
+        "sulfur": 4,
+        "coal": 2
+      }
+    }
+  ]
+}

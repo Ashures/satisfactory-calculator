@@ -1,0 +1,38 @@
+{
+  "default": {
+    "quantity": 1,
+    "ingredients": {
+      "iron-ore": 1
+    }
+  },
+  "alternate" : [
+    {
+      "quantity": 10,
+      "ingredients": {
+        "iron-ore": 5,
+        "limestone": 8
+      }
+    },
+    {
+      "quantity": 15,
+      "ingredients": {
+        "iron-ore": 8,
+        "copper-ore": 2
+      }
+    },
+    {
+      "quantity": 10,
+      "ingredients": {
+        "iron-ore": 5,
+        "sulfuric-acid": 1
+      }
+    },
+    {
+      "quantity": 13,
+      "ingredients": {
+        "iron-ore": 7,
+        "water": 4
+      }
+    }
+  ]
+}

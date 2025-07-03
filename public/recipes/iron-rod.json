@@ -1,0 +1,22 @@
+{
+  "default": {
+    "quantity": 1,
+    "ingredients": {
+      "iron-ingot": 1
+    }
+  },
+  "alternate" : [
+    {
+      "quantity": 7,
+      "ingredients": {
+        "aluminum-ingot": 1
+      }
+    },
+    {
+      "quantity": 4,
+      "ingredients": {
+        "steel-ingot": 1
+      }
+    }
+  ]
+}

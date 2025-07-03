@@ -1,0 +1,25 @@
+{
+  "default": {
+    "quantity": 2,
+    "ingredients": {
+      "reinforced-iron-plate": 3,
+      "iron-rod": 12
+    }
+  },
+  "alternate" : [
+    {
+      "quantity": 2,
+      "ingredients": {
+        "reinforced-iron-plate": 3,
+        "screws": 56
+      }
+    },
+    {
+      "quantity": 3,
+      "ingredients": {
+        "reinforced-iron-plate": 2,
+        "steel-pipe": 10
+      }
+    }
+  ]
+}

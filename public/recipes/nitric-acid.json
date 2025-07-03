@@ -1,0 +1,18 @@
+{
+  "default": {
+    "quantity": 1,
+    "ingredients": {
+      "reanimated-sam": 1,
+      "bauxite": 1
+    }
+  },
+  "alternate" : [
+    {
+      "quantity": 10,
+      "ingredients": {
+        "reanimated-sam": 1,
+        "caterium-ore": 12
+      }
+    }
+  ]
+}

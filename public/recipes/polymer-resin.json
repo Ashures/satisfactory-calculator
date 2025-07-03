@@ -1,0 +1,22 @@
+{
+  "default": {
+    "quantity": 3,
+    "ingredients": {
+      "crude-oil": 6
+    }
+  },
+  "alternate" : [
+    {
+      "quantity": 2,
+      "ingredients": {
+        "crude-oil": 3
+      }
+    },
+    {
+      "quantity": 13,
+      "ingredients": {
+        "crude-oil": 6
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "default": {
+    "quantity": 5,
+    "ingredients": {
+      "raw-quartz": 3
+    }
+  },
+  "alternate" : [
+    {
+      "quantity": 7,
+      "ingredients": {
+        "raw-quartz": 3,
+        "limestone": 5
+      }
+    },
+    {
+      "quantity": 27,
+      "ingredients": {
+        "dissolved-silica": 12,
+        "limestone": 5,
+        "water": 10
+      }
+    },
+    {
+      "quantity": 5,
+      "ingredients": {
+        "bauxite": 12,
+        "water": 18
+      }
+    }
+  ]
+}

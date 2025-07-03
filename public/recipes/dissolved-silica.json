@@ -1,0 +1,9 @@
+{
+  "default": {
+    "quantity": 12,
+    "ingredients": {
+      "raw-quartz": 24,
+      "nitric-acid": 2
+    }
+  }
+}

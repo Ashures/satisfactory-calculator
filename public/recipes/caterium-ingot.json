@@ -1,0 +1,31 @@
+{
+  "default": {
+    "quantity": 1,
+    "ingredients": {
+      "caterium-ore": 3
+    }
+  },
+  "alternate" : [
+    {
+      "quantity": 6,
+      "ingredients": {
+        "caterium-ore": 9,
+        "sulfuric-acid": 5
+      }
+    },
+    {
+      "quantity": 1,
+      "ingredients": {
+        "caterium-ore": 2,
+        "water": 2
+      }
+    },
+    {
+      "quantity": 3,
+      "ingredients": {
+        "caterium-ore": 6,
+        "petroleum-coke": 2
+      }
+    }
+  ]
+}

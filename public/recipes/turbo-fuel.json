@@ -1,0 +1,27 @@
+{
+  "default": {
+    "quantity": 6,
+    "ingredients": {
+      "fuel": 2,
+      "heavy-oil-residue": 4,
+      "sulfur": 3,
+      "petroleum-coke": 3
+    }
+  },
+  "alternate" : [
+    {
+      "quantity": 4,
+      "ingredients": {
+        "heavy-oil-residue": 5,
+        "compacted-coal": 4
+      }
+    },
+    {
+      "quantity": 5,
+      "ingredients": {
+        "fuel": 6,
+        "compacted-coal": 4
+      }
+    }
+  ]
+}

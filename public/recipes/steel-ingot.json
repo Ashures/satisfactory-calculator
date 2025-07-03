@@ -1,0 +1,32 @@
+{
+  "default": {
+    "quantity": 3,
+    "ingredients": {
+      "iron-ore": 3,
+      "coal": 3
+    }
+  },
+  "alternate" : [
+    {
+      "quantity": 20,
+      "ingredients": {
+        "iron-ore": 15,
+        "petroleum-coke": 15
+      }
+    },
+    {
+      "quantity": 15,
+      "ingredients": {
+        "iron-ore": 15,
+        "compacted-coal": 1
+      }
+    },
+    {
+      "quantity": 10,
+      "ingredients": {
+        "iron-ingot": 2,
+        "coal": 2
+      }
+    }
+  ]
+}

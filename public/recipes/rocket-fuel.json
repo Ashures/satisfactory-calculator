@@ -1,0 +1,20 @@
+{
+  "default": {
+    "quantity": 10,
+    "ingredients": {
+      "turbofuel": 6,
+      "nitric-acid": 1
+    }
+  },
+  "alternate" : [
+    {
+      "quantity": 6,
+      "ingredients": {
+        "fuel": 4,
+        "nitrogen-gas": 3,
+        "sulfur": 4,
+        "coal": 2
+      }
+    }
+  ]
+}

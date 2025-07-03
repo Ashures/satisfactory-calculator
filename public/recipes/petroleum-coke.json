@@ -1,0 +1,8 @@
+{
+  "default": {
+    "quantity": 12,
+    "ingredients": {
+      "heavy-oil-residue": 4
+    }
+  }
+}

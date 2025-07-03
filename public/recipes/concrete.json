@@ -1,0 +1,31 @@
+{
+  "default": {
+    "quantity": 1,
+    "ingredients": {
+      "limestone": 3
+    }
+  },
+  "alternate" : [
+    {
+      "quantity": 10,
+      "ingredients": {
+        "silica": 3,
+        "limestone": 12
+      }
+    },
+    {
+      "quantity": 9,
+      "ingredients": {
+        "limestone": 10,
+        "rubber": 2
+      }
+    },
+    {
+      "quantity": 4,
+      "ingredients": {
+        "limestone": 6,
+        "water": 5
+      }
+    }
+  ]
+}

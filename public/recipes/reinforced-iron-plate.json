@@ -1,0 +1,32 @@
+{
+  "default": {
+    "quantity": 1,
+    "ingredients": {
+      "iron-plate": 6,
+      "screws": 12
+    }
+  },
+  "alternate" : [
+    {
+      "quantity": 1,
+      "ingredients": {
+        "iron-plate": 3,
+        "rubber": 1
+      }
+    },
+    {
+      "quantity": 3,
+      "ingredients": {
+        "iron-plate": 18,
+        "screws": 50
+      }
+    },
+    {
+      "quantity": 3,
+      "ingredients": {
+        "iron-plate": 10,
+        "wire": 20
+      }
+    }
+  ]
+}

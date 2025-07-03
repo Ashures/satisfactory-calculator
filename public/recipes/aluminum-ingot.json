@@ -1,0 +1,17 @@
+{
+  "default": {
+    "quantity": 4,
+    "ingredients": {
+      "aluminum-scrap": 6,
+      "silica": 5
+    }
+  },
+  "alternate" : [
+    {
+      "quantity": 1,
+      "ingredients": {
+        "aluminum-scrap": 2
+      }
+    }
+  ]
+}

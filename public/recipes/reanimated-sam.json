@@ -1,0 +1,8 @@
+{
+  "default": {
+    "quantity": 1,
+    "ingredients": {
+      "sam": 4
+    }
+  }
+}

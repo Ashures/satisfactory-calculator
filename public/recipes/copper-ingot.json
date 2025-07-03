@@ -1,0 +1,38 @@
+{
+  "default": {
+    "quantity": 1,
+    "ingredients": {
+      "copper-ore": 1
+    }
+  },
+  "alternate" : [
+    {
+      "quantity": 10,
+      "ingredients": {
+        "copper-ore": 5,
+        "iron-ore": 5
+      }
+    },
+    {
+      "quantity": 22,
+      "ingredients": {
+        "copper-ore": 9,
+        "sulfuric-acid": 5
+      }
+    },
+    {
+      "quantity": 15,
+      "ingredients": {
+        "copper-ore": 6,
+        "water": 4
+      }
+    },
+    {
+      "quantity": 12,
+      "ingredients": {
+        "copper-ore": 5,
+        "petroleum-coke": 8
+      }
+    }
+  ]
+}
