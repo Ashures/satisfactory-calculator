@@ -1,7 +1,9 @@
+import Navbar from "./components/main/Navbar";
+
 const App: React.FC = () => {
   return (
     <main>
-      <div className="logo"></div>
+      <Navbar />
     </main>
   );
 };
