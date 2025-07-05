@@ -1,19 +1,25 @@
-import items from "../../libs/items";
+import type { ItemInfo } from "../../libs/types";
 import Item from "./Item";
 
-const ItemList: React.FC = () => {
+interface ItemListProps {
+  items: [string, ItemInfo][];
+  selectItem: (id: string) => void;
+}
+
+const ItemList: React.FC<ItemListProps> = (props) => {
   return (
     <div className="item-list">
-      {Object.entries(items).map(item => {
+      {props.items.map(item => {
         const [key, value] = item;
         return (
-          <Item 
-            key={key} 
-            id={value.id} 
-            displayName={value.displayName} 
-            iconUrl={value.iconUrl} 
-            recipe={value.recipe}
-          />
+          <button key={key} onClick={() => props.selectItem(value.id)}>
+            <Item 
+              id={value.id} 
+              displayName={value.displayName} 
+              iconUrl={value.iconUrl} 
+              recipe={value.recipe}
+            />
+          </button>
         )})}
     </div>
   );
