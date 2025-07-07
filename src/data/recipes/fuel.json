@@ -1,0 +1,23 @@
+{
+  "default": {
+    "quantity": 4,
+    "ingredients": {
+      "crude-oil": 6
+    }
+  },
+  "alternate" : [
+    {
+      "quantity": 4,
+      "ingredients": {
+        "heavy-oil-residue": 6
+      }
+    },
+    {
+      "quantity": 10,
+      "ingredients": {
+        "heavy-oil-residue": 5,
+        "water": 10
+      }
+    }
+  ]
+}
