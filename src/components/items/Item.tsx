@@ -1,6 +1,10 @@
-import type { ItemInfo } from "../../libs/types";
+interface ItemProps {
+  id: string;
+  displayName: string;
+  iconUrl: string;
+}
 
-const Item: React.FC<ItemInfo> = (props) => {
+const Item: React.FC<ItemProps> = (props) => {
   const { id, displayName, iconUrl } = props;
   return (
     <div className="item" id={id}>
