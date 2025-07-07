@@ -33,8 +33,8 @@ const SelectedItems: React.FC<SelectedItemListProps> = (props) => {
   return (
     <div className="selected-items-menu">
       <ul className="menu-tabs">
-        <li><button onClick={() => setCurrentTab(0)}>Items</button></li>
-        <li><button onClick={() => setCurrentTab(1)}>Resources</button></li>
+        <li className={`${currentTab === 0 ? 'selected-tab' : ''}`}><button onClick={() => setCurrentTab(0)}>Items</button></li>
+        <li className={`${currentTab === 1 ? 'selected-tab' : ''}`}><button onClick={() => setCurrentTab(1)}>Resources</button></li>
       </ul>
       {currentTab === 0 &&
         <div className="selected-items">
@@ -51,19 +51,28 @@ const SelectedItems: React.FC<SelectedItemListProps> = (props) => {
       }
       {currentTab === 1 &&
         <div className="selected-resources">
-          {Object.entries(resources).map(resource => {
-            const [id, quantity] = resource;
-            return (
-              <div key={id} className="">
-                <Item
-                  id={id}
-                  displayName={toTitleCase(id)}
-                  iconUrl={`${id}.webp`}
-                />
-                <h2>Quantity: {quantity}</h2>
-              </div>
-            );
-          })}
+          {props.items.length > 0
+          ?
+            <div className="resource-list">
+              {Object.entries(resources).map(resource => {
+                const [id, quantity] = resource;
+                return (
+                  <div key={id} className="resource">
+                    <Item
+                      id={id}
+                      displayName={toTitleCase(id)}
+                      iconUrl={`${id}.webp`}
+                      clickable={false}
+                    />
+                    <h2>x {quantity}</h2>
+                  </div>
+                );
+              })}
+            </div>
+          :
+            <h1>No items selected.</h1>
+          }
+          
         </div>
       }
     </div>
