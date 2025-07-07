@@ -17,7 +17,6 @@ const ItemList: React.FC<ItemListProps> = (props) => {
               id={value.id} 
               displayName={value.displayName} 
               iconUrl={value.iconUrl} 
-              recipe={value.recipe}
             />
           </button>
         )})}
