@@ -54,7 +54,7 @@ const SelectedItems: React.FC<SelectedItemListProps> = (props) => {
           {props.items.length > 0
           ?
             <div className="resource-list">
-              {Object.entries(resources).map(resource => {
+              {Object.entries(resources).sort((a, b) => a[0].localeCompare(b[0])).map(resource => {
                 const [id, quantity] = resource;
                 return (
                   <div key={id} className="resource">
