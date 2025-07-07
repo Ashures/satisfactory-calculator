@@ -139,6 +139,20 @@ nav {
   scrollbar-color: var(--links) var(--bg-tint);
 }
 
+.resource-list .resource {
+  height: 25%;
+  font-size: 12px;
+  border-bottom: solid 1px var(--bg);
+}
+
+.resource-list .resource:nth-last-of-type(1) {
+  border: none;
+}
+
+.resource-list .resource {
+  padding-top: 20px;
+}
+
 .item-list {
   display: grid;
   grid: auto / repeat(4, 1fr);
